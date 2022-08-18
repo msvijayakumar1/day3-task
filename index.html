@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //for 
+        var numbers =[5,10,15,20,25];
+        for(var i=0; i<numbers.length; i++){
+            console.log(numbers[i])
+        }
+        
+        //for in
+    var person={
+        fname:"john",
+        lname:"jean",
+        age:24
+    };
+        for(let x in person){
+        console.log(x+": "+ person[x])
+    }
+        
+        //for of
+         let nums = [];
+        nums[0]= [5];
+        nums[1]= [9];
+       
+        for(let n of nums){
+           console.log(n);     
+        } 
+
+        //for each
+        var datesbooking = [
+            {"date": "08"},
+            {"date":"27"}
+        ];
+        datesbooking.forEach(function(data,index){
+            console.log(data);
+        });
+        //resume in json
+        {
+            "basics": {
+                "name":"vijayakumar",
+                "email":"msvijayakumar121@gmail.com",
+                "mobile no":"6374705836",
+                "degree":"b.sc",
+                "department":"physics",
+                "percentage":"66",
+                "location":"madurai",
+                "country":"india",
+                "skills":"ms word","photo shop",
+                "intersts":"do a lot of programm"
+            }
+        }
+    </script>
+    
+</body>
+</html>
